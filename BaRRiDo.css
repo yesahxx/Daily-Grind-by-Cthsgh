@@ -1,0 +1,159 @@
+body {
+  background-image: url(cover-cafes-.jpg  );
+  background-attachment: fixed;
+  background-color: bisque;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: rgb(121, 88, 61);
+  text-align: center;
+}
+
+header {
+  color: rgb(109, 72, 41);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: #a76d47;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 10px;
+  float: left;
+}
+
+h3{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ nav {
+    display: flex ;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+ul {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+ul li a {
+  margin: 5px;
+  color: rgb(109, 72, 41);
+  text-decoration: wheat;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+  padding: 10px 15px;
+}
+
+ul li a:hover{
+  color: rgb(238, 157, 91);
+}
+
+ #description{
+font-family:'Times New Roman', monospace, serif;
+color: rgb(49, 29, 9);
+font-size: 29px;
+font-style: normal;
+text-align: center;
+padding: 20px;
+ }
+
+#product {
+font-family: 'Times New Roman', monospace, serif;
+font-size: 27px;
+font-style: normal;
+text-align: center;
+color:  rgb(49, 29, 9);
+}
+
+img{
+width:750px;
+height: 660px;
+}
+
+#reviews {
+  font-family: 'Times New Roman', monospace, serif;
+  font-size: 25px;
+  font-style: normal;
+  text-align: center;
+  color:  rgb(49, 29, 9);
+}
+
+#faqs {
+font-family: 'Times New Roman', monospace, serif;
+font-size: 25px;
+font-style: normal;
+text-align: center;
+color:   rgb(49, 29, 9);
+}
+
+#contact {
+font-family:Verdana, Tahoma, sans-serif;
+font-size: 18px;
+font-style: bold;
+text-align: center;
+color:  rgb(49, 29, 9);
+}
+
+.content-section {
+padding: 50px 20px;
+max-width: 1200px;
+margin: auto;
+}
+
+div {
+display: block;
+unicode-bidi: isolate;
+}
+
+
+footer {
+  background-color: antiquewhite;
+color: rgb(92, 54, 23);
+text-align: center;
+padding: 5px;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+@media (max-width: 768px) {
+h1 {
+    font-size: 40px;
+}
+
+nav {
+    flex-direction: column;
+}
+
+ul li a {
+    margin: 5px 0;
+}
+}
+
+@media (max-width: 480px) {
+h1 {
+    font-size: 28px;
+}
+
+.box-model {
+    width: 90%;
+    padding: 10px;
+}
+}
